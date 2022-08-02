@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 30px 10px;
+    grid-template-areas: "one", "two", "three";
+}
+
+.one {
+    grid-area: "one";
+}
+
+.two {
+    grid-area: "two";
+}
+
+.three {
+    grid-area: "three";
+}
+
+img {
+    width: 100%;
+    margin: .4rem 0;
+}
+
+@media screen and (max-width: 540px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
