@@ -12,3 +12,7 @@ HTML ans CSS were used in building this project. CSS grid layout was used as thi
 
 
 
+#Instruction
+1. Click on the repository link
+2. Click on the code in a green button
+3. dowload the zip.
